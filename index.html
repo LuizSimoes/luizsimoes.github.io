@@ -1,110 +1,131 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt-br">
 <head>
-	<title>Meu Portfólio</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
 </head>
-
 <body>
+  <div id="container"><!-- Começo container-->
+    <header><!-- Começo Header-->
+      <div id="logo">
+        <h1><a href="https://github.com/LuizSimoes" target="_blank">Luiz Simões</a></h1>
+      </div>
 
-	<div id="area-cabecalho">
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#habilidades">Minhas Habilidades</a></li>
+          <li><a href="#interesses">Meus interesses</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header><!-- Fim Header-->
 
-		<div id="area-logo">
-			<img id="topo" class="arrendondamento" src="img/Eu.png" alt="Foto do Autor" width="200">
-			<h1>Luiz Eduardo<span class="branco"> F. Simões</span></h1>
-		</div>
-		<div id="area-menu">
-			<a href="#sobre">Sobre mim</a>
-			<a href="#habilidades">Minhas Habilidades</a>
-			<a href="#interesses">Meus interesses</a>
-		</div>
+    <div id="principal"><!-- Começo PRINCIPAL-->
+      <div id="conteudo">
+        <section>
+          <article>
+            <img width="710px" src="../img/Banner2.gif">
+            <h2 id="sobre">Sobre mim</h2>
+            <p>
+            <p>Natural de Santos - SP - Brasil</p>
+            <p>Curioso por natureza, sou apaixonado por computadores e códigos😍️💻️. Amo resolver problemas e aprender. Comecei a estudar programação e eletrônica aos 12 anos de idade💾️. Gosto muito de programação WEB e MOBILE e IoT. Adoro “brincar” com impressão 3D e microcontroladores, como os ATMEL, PIC e ESP8266. Trabalho e acredito em ações que possam gerar um impacto positivo na vida das pessoas. Tenho convicção que o desenvolvimento de software permite que eu vivencie todas minhas paixões, por isso, me dedico para me tornar um desenvolvedor cada vez melhor.
+            <p>Atuei por mais de 25 anos no setor de telecomunicações, sendo 20 anos em gerenciamento de projetos e
+              operações
+              por diversos estados do país. Onde prestei serviços para as maiores operadoras de telefonia fixa e
+              Internet.
+              Atuei como docente em cursos de pós-graduação e técnico.
+            </p>
+        </article>
+        <br>
+        <article>
+          <h2 id="habilidades">Minhas Habilidades</h2>
+          <img width="710px" src="../img/skills.png">
+          <p>
+          <ol>
+            <li>Flexibilidade e adaptação</li>
+            <li>Pensamento crítico</li>
+            <li>Julgamento e tomada de decisões</li>
+            <li>Gestão de problemas e conflitos</li>
+            <li>Gestão de peossoas</li>
+            <li>Colaboração</li>
+            <li>Orientação para o resultado</li>
+          </ol>
+          </p>
+        </article>
+        <br>
+        <article>
+          <h2 id="interesses">Meus interesses</h2>
+          <img width=710px" src="../img/tecnico_eletronica.jpg">
+          <p>
+          <ul style="list-style-type:square">
+            <li>Programação</li>
+            <li>Microcontroladores</li>
+            <li>Computação física</li>
+            <li>IOT - Internet das coisas</li>
+            <li>Movimento MAKER</li>
+            <li>Automação</li>
+            <li>Airsoft</li>
+          </ul>
+          </p>
+        </article>
+        <br>
+        <article>
+          <h2 id="contato">Contato</h2>
 
-	</div>
+          <p id="contato">
+            <a href="https://www.linkedin.com/in/luizefsimoes2020/"><img alt="LinkedIn" width="100" height="100" src="../img/linked.png"></a>
+            <a href="https://github.com/LuizSimoes"><img alt="Github" width="100" height="100" src="../img/LuizSimoes-Octacat.png"></a>
+            <a href="mailto:luizefsimoes@gmail.com"><img alt="Gmail" width="100" height="100" src="../img/gmail.png"></a>
+          </p>
+        </article>
+        </section>
+      </div>
 
-	<div id="area-principal">
-
-		<div id="area-apresenta">
-			<!-- abertura apresentação -->
-
-			<!-- abertura sobre mim -->
-			<div class="conhecendo">
-				<h2 id="sobre">Sobre mim</h2>
-				<img width="620px" src="img/F34ZJ.png">
-				<p>
-				<p>Natural de Santos - SP - Brasil</p>
-				<br>
-				<p>Atuei por mais de 25 anos no setor de telecomunicações, sendo 20 anos em gerenciamento de projetos e
-					operações
-					por diversos estados do país. Onde prestei serviços para as maiores operadoras de telefonia fixa e
-					Internet.
-					Atuei como docente em cursos de pós-graduação e técnico.</p>
-				<br>
-				<p>Curioso por natureza, <strong>sou apaixonado por computadores e códigos💻️😍️. Amo resolver problemas e aprender.</strong> Comecei a estudar programação e eletrônica aos 12 anos de idade.💾️
-				<p>Gosto muito de programação WEB, MOBILE e IoT. Adoro “brincar” com impressão 3D e microcontroladores, como os ATMEL, PIC e ESP8266. Trabalho e acredito em ações que possam gerar um impacto positivo na vida das pessoas. Tenho convicção que o desenvolvimento de software permite que eu vivencie todas minhas paixões, por isso, me dedico para me tornar um desenvolvedor cada vez melhor.</p>
-				</p>
-			</div>
-			<!--// fechamento sobre mim -->
-
-			<!-- abertura habilidades -->
-			<div class="conhecendo">
-				<h2 id="habilidades">Minhas Habilidades</h2>
-				<img width="620px" src="img/skills.png">
-				<p>
-				<ol>
-					<li>Flexibilidade e adaptação</li>
-					<li>Pensamento crítico</li>
-					<li>Julgamento e tomada de decisões</li>
-					<li>Gestão de problemas e conflitos</li>
-					<li>Gestão de peossoas</li>
-					<li>Colaboração</li>
-					<li>Orientação para o resultado</li>
-				</ol>
+      <aside>
+        <section>
+          <div>
+            <form id="lyrics_form">
+              <div class='form-row'>
+                <div class="form_group">
+                  <h4>Aqui Você pode procurar letras de músicas</h4>
+                  <label for="artist"></label>
+                  <input type="text"class="form-control" style="width: 200px;" id="artist" placeholder="Artista">
+                </div>          
+                <div class="form_group">
+                  <label for="song"></label>
+                  <input type="text"class="form-control" style="width: 200px;" id="song" placeholder="Musica">
+                </div>
+                <button type="submit" class='btn btn-green'>Let's Sing</button>
+              </div>
+            </form>
+          </div>
+        </section>
+        <div>
+          <pre id="lyrics"></pre>
+        </div>
+      </aside>
 
 
-				</p>
-			</div>
-			<!--// fechamento habilidades -->
-
-			<!-- abertura Interesses -->
-			<div class="conhecendo">
-				<h2 id="interesses">Meus interesses</h2>
-				<img width=580px" src="img/interesses.png">
-				<p>
-				<ul style="list-style-type:square">
-					<li>Programação</li>
-					<li>Microcontroladores</li>
-					<li>Computação física</li>
-					<li>IOT - Internet das coisas</li>
-					<li>Movimento MAKER</li>
-					<li>Automação</li>
-					<li>Airsoft</li>
-				</ul>
+    </div><!-- Fim PRINCIPAL-->
+    <footer>
+      <p>
+        <a href="#container">Topo &uarr;</a>
+        <a href="#sobre">Sobre mim</a>
+        <a href="#habilidades">Minhas Habilidades</a>
+        <a href="#interesses">Meus interesses</a>
+        <a href="#contato">Contato</a>
+      </p>
+      <p>
+        2020 <a href="">Luiz Simões</a> - Todos os direitos reservados &copy.
+      </p>
+    </footer>
 
 
-				</p>
-			</div>
-			<!--// fechamento interesses -->
-
-		</div>
-		<!--// fechamento apresentação -->
-
-		<div id="rodape">
-			Todos os direitos reservados &copy 2020
-		</div>
-
-	</div>
-	<div id="area-cabecalho">
-
-		<div id="area-menu">
-			<a href="#sobre">Sobre mim</a>
-			<a href="#habilidades">Minhas Habilidades</a>
-			<a href="#interesses">Meus interesses</a>
-			<a href="#topo">Topo &uarr;</a>
-		</div>
-
-	</div>
-
+  </div><!-- Fim container-->
+  <script src="../js/script.js"></script>
 </body>
 </html>
