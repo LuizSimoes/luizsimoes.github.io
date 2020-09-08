@@ -159,10 +159,10 @@ input.form-control {
 }
 
 footer {
-	background: url(../img/placa-de-circuito-background.jpg) repeat-x center top;
-	margin-top: 20px;
-	padding: 20px 0 30px 0;
-	text-align: center;
+  background: url(../img/placa-de-circuito-background.jpg) repeat-x center top;
+  margin-top: 20px;
+  padding: 20px 0 30px 0;
+  text-align: center;
   clear: both;
   font-size: 1.50em;
   font-weight: bold;
