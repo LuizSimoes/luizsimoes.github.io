@@ -4,128 +4,104 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Site Pessoal - Luiz Simões</title>
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div id="container"><!-- Começo container-->
-    <header><!-- Começo Header-->
+  <div id="container">
+    <header>
       <div id="logo">
-        <h1><a href="https://github.com/LuizSimoes" target="_blank">Luiz Simões</a></h1>
+        <h1><a href="https://github.com/LuizSimoes" target="_blank" rel="noreferrer">Luiz Simões</a></h1>
       </div>
-
       <nav>
         <ul>
           <li><a href="#sobre">Sobre mim</a></li>
-          <li><a href="#habilidades">Minhas Habilidades</a></li>
-          <li><a href="#interesses">Meus interesses</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#interesses">Interesses</a></li>
           <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
-    </header><!-- Fim Header-->
+    </header>
 
-    <div id="principal"><!-- Começo PRINCIPAL-->
-      <div id="conteudo">
-        <section>
-          <article>
-            <img width="100%" src="../img/Banner2.gif">
-            <h2 id="sobre">Sobre mim</h2>
-            <p>
-            <p>Natural de Santos - SP - Brasil</p>
-            <p>Curioso por natureza, sou apaixonado por computadores e códigos😍️💻️. Amo resolver problemas e aprender. Comecei a estudar programação e eletrônica aos 12 anos de idade 💾️. Gosto muito de programação WEB e MOBILE e IoT. Adoro “brincar” com impressão 3D e microcontroladores, como os ATMEL, PIC e ESP8266. Trabalho e acredito em ações que possam gerar um impacto positivo na vida das pessoas. Tenho convicção que o desenvolvimento de software permite que eu vivencie todas minhas paixões, por isso, me dedico para me tornar um desenvolvedor cada vez melhor.
-            <p>Atuei por mais de 25 anos no setor de telecomunicações, sendo 20 anos em gerenciamento de projetos e
-              operações
-              por diversos estados do país. Onde prestei serviços para as maiores operadoras de telefonia fixa e
-              Internet.
-              Atuei como docente em cursos de pós-graduação e técnico.
-            </p>
-        </article>
-        <br>
+    <main id="principal">
+      <section id="conteudo">
         <article>
-          <h2 id="habilidades">Minhas Habilidades</h2>
-          <img width="100%" src="../img/skills.png">
-          <p>
-          <ol>
+          <img src="img/Banner2.gif" alt="Banner Luiz Simões" class="banner">
+          <div class="text-block">
+            <h2 id="sobre">Sobre mim</h2>
+            <p>Natural de Santos - SP - Brasil.</p>
+            <p>Curioso por natureza, sou apaixonado por computadores e códigos. Amo resolver problemas e aprender. Comecei a estudar programação e eletrônica aos 12 anos de idade. Gosto muito de programação WEB, MOBILE e IoT. Adoro “brincar” com impressão 3D e microcontroladores como ATMEL, PIC e ESP8266.</p>
+            <p>Tenho sólida experiência em telecomunicações, com mais de 25 anos no setor e 20 anos em gerenciamento de projetos e operações em vários estados do país. Prestei serviços para grandes operadoras de telefonia fixa e internet, e atuei como docente em cursos de pós-graduação e técnico.</p>
+          </div>
+        </article>
+
+        <article>
+          <h2 id="habilidades">Habilidades</h2>
+          <img src="img/skills.png" alt="Habilidades" class="section-image">
+          <ol class="skills-list">
             <li>Flexibilidade e adaptação</li>
             <li>Pensamento crítico</li>
             <li>Julgamento e tomada de decisões</li>
             <li>Gestão de problemas e conflitos</li>
-            <li>Gestão de peossoas</li>
+            <li>Gestão de pessoas</li>
             <li>Colaboração</li>
-            <li>Orientação para o resultado</li>
+            <li>Orientação ao resultado</li>
           </ol>
-          </p>
         </article>
-        <br>
+
         <article>
-          <h2 id="interesses">Meus interesses</h2>
-          <img width="100%" src="../img/tecnico_eletronica.jpg">
-          <p>
-          <ul style="list-style-type:square">
+          <h2 id="interesses">Interesses</h2>
+          <img src="img/tecnico_eletronica.jpg" alt="Interesses técnicos" class="section-image">
+          <ul class="interests-list">
             <li>Programação</li>
             <li>Microcontroladores</li>
             <li>Computação física</li>
-            <li>IOT - Internet das coisas</li>
+            <li>IoT - Internet das coisas</li>
             <li>Movimento MAKER</li>
             <li>Automação</li>
             <li>Airsoft</li>
           </ul>
-          </p>
         </article>
-        <br>
+
         <article>
           <h2 id="contato">Contato</h2>
-
-          <div id="contato">
-            <a href="https://www.linkedin.com/in/luizefsimoes2020/" target="_blank"><img alt="LinkedIn" width="100" height="100" src="../img/linked.png"></a>
-            <a href="https://github.com/LuizSimoes" target="_blank"><img alt="Github" width="100" height="100" src="../img/LuizSimoes-Octacat.png"></a>
-            <a href="mailto:luizefsimoes@gmail.com"><img alt="Gmail" width="100" height="100" src="../img/gmail.png"></a>
-          </divp>
+          <div class="contact-grid">
+            <a href="https://www.linkedin.com/in/luizefsimoes2020/" target="_blank" rel="noreferrer"><img alt="LinkedIn" src="img/linked.png"></a>
+            <a href="https://github.com/LuizSimoes" target="_blank" rel="noreferrer"><img alt="GitHub" src="img/LuizSimoes-Octacat.png"></a>
+            <a href="mailto:luizefsimoes@gmail.com"><img alt="E-mail" src="img/gmail.png"></a>
+          </div>
         </article>
-        </section>
-      </div>
+      </section>
 
       <aside>
-        <section>
-          <div>
-            <form id="lyrics_form">
-              <div class='form-row'>
-                <div class="form_group">
-                  <h4>Aqui Você pode procurar letras de músicas</h4>
-                  <label for="artist"></label>
-                  <input type="text"class="form-control" style="width: 200px;" id="artist" placeholder="Artista">
-                </div>          
-                <div class="form_group">
-                  <label for="song"></label>
-                  <input type="text"class="form-control" style="width: 200px;" id="song" placeholder="Musica">
-                </div>
-                <button type="submit" class='btn btn-green'>Let's Sing</button>
-              </div>
-            </form>
-          </div>
+        <section class="lyrics-panel">
+          <h4>Busque Pokémons</h4>
+          <p class="panel-description">Digite o nome ou número do Pokémon e descubra mais sobre ele com imagem e stats.</p>
+          <form id="search_form">
+            <div class="form-row">
+              <label>
+                Pokémon
+                <input type="text" id="query" placeholder="pikachu, charizard, 25..." autocomplete="off">
+              </label>
+              <button type="submit" class="btn btn-green">Buscar</button>
+            </div>
+          </form>
+          <div id="results" class="pokemon-output">Digite o nome ou número do Pokémon acima.</div>
         </section>
-        <div>
-          <pre id="lyrics"></pre>
-        </div>
       </aside>
+    </main>
 
-
-    </div><!-- Fim PRINCIPAL-->
     <footer>
-      <p>
-        <a href="#container">Topo &uarr;</a>
-        <a href="#sobre">Sobre mim</a>
-        <a href="#habilidades">Minhas Habilidades</a>
-        <a href="#interesses">Meus interesses</a>
+      <div class="footer-links">
+        <a href="#container">Topo</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#interesses">Interesses</a>
         <a href="#contato">Contato</a>
-      </p>
-      <p>
-        2020 <a href="">Luiz Simões</a> - Todos os direitos reservados &copy.
-      </p>
+      </div>
+      <p>2020 Luiz Simões - Todos os direitos reservados</p>
     </footer>
-
-
-  </div><!-- Fim container-->
-  <script src="../js/script.js"></script>
+  </div>
+  <script src="js/script.js"></script>
 </body>
 </html>
